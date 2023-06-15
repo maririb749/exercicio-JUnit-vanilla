@@ -2,7 +2,7 @@
 <h1 align="center">Exercício: JUnit vanilla</h1>
 
 
-### Diagrama de classes:
+## Diagrama de classes:
 ###
 
 ![financing](https://github.com/maririb749/exercicio-JUnit-vanilla/assets/85500087/5e2908e5-96ed-4f74-9aae-a0f84b00f5bd)
