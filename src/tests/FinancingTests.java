@@ -107,5 +107,25 @@ public class FinancingTests {
             
         });
     }
+    @Test
+    public void entrySShouldCalculateEntryCorrectly() {
+    	
+    	//arrange
+		 Financing f = new Financing(100000.0, 2000.0, 80);
+		 
+		 //assert
+	     Assertions.assertEquals(20000.0, f.entry());
+    	
+    }
+    @Test
+    public void quotaShouldCalculateQuotaCorrectly() {
+    	
+    	//arrange
+		 Financing f = new Financing(100000.0, 2000.0, 80);
+		 
+		 //assert
+	     Assertions.assertEquals(1000.0, f.quota());
+    	
+    }
 }
    
